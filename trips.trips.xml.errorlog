@@ -1,0 +1,12 @@
+Warning: At actuated tlLogic 'GS_cluster_105789410_593902037', linkIndex 2 has no controlling detector.
+Warning: At actuated tlLogic 'GS_cluster_105789410_593902037', linkIndex 3 has no controlling detector.
+Warning: At actuated tlLogic 'GS_cluster_105789410_593902037', linkIndex 4 has no controlling detector.
+Warning: At actuated tlLogic 'GS_cluster_1652675097_1652675099', linkIndex 11 has no controlling detector.
+Warning: At actuated tlLogic 'GS_cluster_1652675097_1652675099', linkIndex 12 has no controlling detector.
+Warning: busStop '-1560223790' on lane '-1050686757#2_0' is too short for vehicle '9_bus_260:0'.
+Warning: Vehicle '13_tram_61:0' is not allowed to stop on lane '-178028204#1_0'.
+Warning: Vehicle '14_tram_63:0' is not allowed to stop on lane '-178028204#1_0'.
+Warning: busStop '664208807' on lane '1050686757#2_0' is too short for vehicle '19_bus_260:1'.
+Warning: Vehicle '13_tram_61:0' is not allowed to depart on any lane of edge '-178028204#1'.
+Warning: Vehicle '14_tram_63:0' is not allowed to depart on any lane of edge '-178028204#1'.
+Warning: 6 total messages of type: At actuated tlLogic '%', linkIndex % has no controlling detector.

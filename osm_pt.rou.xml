@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2023-01-28 21:06:20.917315 by $Id: ptlines2flows.py v1_3_1+0313-ccb31df3eb jakob.erdmann@dlr.de 2019-09-02 13:26:32 +0200 $ v1_14_1+0000-f654d7b963e
+  options: 
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <vType id="pt_bus" vClass="bus"/>
+    <vType id="pt_tram" vClass="tram"/>
+    <vType id="pt_train" vClass="rail"/>
+    <vType id="pt_subway" vClass="rail_urban"/>
+    <vType id="pt_light_rail" vClass="rail_urban"/>
+    <vType id="pt_monorail" vClass="rail"/>
+    <vType id="pt_trolleybus" vClass="bus"/>
+    <vType id="pt_minibus" vClass="bus"/>
+    <vType id="pt_share_taxi" vClass="taxi"/>
+    <vType id="pt_aerialway" vClass="bus"/>
+    <vType id="pt_ferry" vClass="ship"/>
+    <route id="pt_bus_160:0" edges="46039050#0 46039050#2 46039050#3 143308587#0 24214694#2 24214694#3 190083618#0 239335494 -143308570 -318210395 -190083616" >
+        <stop busStop="837696524" duration="20" until="57.0"/> <!-- James-Franck-Straße -->
+        <stop busStop="1560223236" duration="20" until="117.0"/> <!-- Rudower Chaussee/Wegedornstraße -->
+    </route>
+    <route id="pt_bus_162:0" edges="206889086#0 318210389#0 670062912#0 670062909#0 670062907#0 670062907#2 677933664#3 143308546#0 143308546#3 143308546#4 670062902#1 143308587#0 24214694#2 24214694#3 190083618#0 239335494 -143308570 -318210395 -190083616" >
+        <stop busStop="1656195133" duration="20" until="31.0"/> <!-- S Adlershof -->
+        <stop busStop="464396566" duration="20" until="125.0"/> <!-- Walther-Nernst-Straße -->
+        <stop busStop="301331956" duration="20" until="198.0"/> <!-- Magnusstraße -->
+        <stop busStop="1560223236" duration="20" until="265.0"/> <!-- Rudower Chaussee/Wegedornstraße -->
+    </route>
+    <route id="pt_bus_163:0" color="149,39,110" edges="12749623 81639678 48858191#0 318210383#0 52243916#0 -43660343#1 -43660343#0 10735918 986672064#0 204721579#0 204721579#1 204721579#2 153021549#0 153021549#1 153021549#2 153021549#3 153021549#4 153021549#5 1102336903#0 1102336903#1 414563781 318210357#0 206889086#0" >
+        <stop busStop="1383533462" duration="20" until="100.0"/> <!-- Adlergestell/Glienicker Weg -->
+        <stop busStop="1862990707" duration="20" until="187.0"/> <!-- Otto-Franke-Straße -->
+        <stop busStop="1656195133" duration="20" until="266.0"/> <!-- S Adlershof -->
+    </route>
+    <route id="pt_bus_162:1" edges="190083616 318210395 143308570 283317455#0 -190083618#2 -24214694#3 -24214694#2 143308590#0 143308542#0 143308542#2 143308542#5 143308542#8 143308542#10 143308552#0 998243552#0 976351540#0 72230304#0 461514282#0 461514282#1" >
+        <stop busStop="464396487" duration="20" until="91.0"/> <!-- Rudower Chaussee/Wegedornstraße -->
+        <stop busStop="306982602" duration="20" until="147.0"/> <!-- Magnusstraße -->
+        <stop busStop="464396589" duration="20" until="231.0"/> <!-- Walther-Nernst-Straße -->
+    </route>
+    <route id="pt_bus_163:1" color="149,39,110" edges="976351540#0 72230304#0 461514282#0 461514282#1 977639651#0 318210353 318210351 207086005#1 318210360#0 152839434#0 43660343#0 43660343#1 48298278#0 48858192#0 318210388#0 -318210386#2 -12749623" >
+        <stop busStop="5836660322" duration="20" until="33.0"/> <!-- S Adlershof -->
+        <stop busStop="3812676495" duration="20" until="159.0"/> <!-- Otto-Franke-Straße -->
+        <stop busStop="1383533461" duration="20" until="221.0"/> <!-- Adlergestell/Glienicker Weg -->
+    </route>
+    <route id="pt_bus_260:0" edges="206889086#0 318210389#0 670062912#0 -318210361#2 -314415495#12 -314415495#11 -314415495#9 -314415495#8 -314415495#7 -314415495#6 -314415495#5 -314415495#3 -314415495#2 -314415495#1 -314415495#0 -1050686757#2 -1050686757#1 -1050686757#0 -1050686755#4 -1050686755#3 -1050686755#1 -1050686755#0 -81639685#2 48858192#0 318210388#0 -318210386#2 -12749623" >
+        <stop busStop="1656195133" duration="20" until="31.0"/> <!-- S Adlershof -->
+        <stop busStop="-385200818" duration="20" until="148.0"/> <!-- Albert-Einstein-Straße -->
+        <stop busStop="-1560223790" duration="20" until="218.0"/> <!-- Wilhelm-Ostwald-Straße -->
+        <stop busStop="-1560223555" duration="20" until="275.0"/> <!-- Am Studio/Köpenicker Straße -->
+    </route>
+    <route id="pt_bus_165:0" edges="674407325 678683419 679714114 177615722 363443435 363443437 363443436 -31091960#3 -31091960#2 -31091960#1 -31091960#0 -31091957#1 -31091957#0 -1072169602 -395077041 679714112 238053687 431551339 678691344 431551338 238053690#0 238053690#1 1118064016 70553241#0 180797804" >
+        <stop busStop="4017682630" duration="20" until="86.0"/> <!-- Oberspreestraße/Bundeswehr -->
+        <stop busStop="-1383533522" duration="20" until="149.0"/> <!-- Friedlander Straße -->
+        <stop busStop="1383533513" duration="20" until="211.0"/> <!-- Freystadter Weg -->
+        <stop busStop="361152203" duration="20" until="280.0"/> <!-- S Spindlersfeld -->
+    </route>
+    <route id="pt_bus_165:1" edges="237122662#0 1118064011#0 70553224#1 70553224#2 238053688#0 679714111 1126431629 238053689#0 395077041 1072169602 31091957#0 31091957#1 31091960#0 31091960#1 31091960#2 31091960#3 -363443436 -363443437 -363443435 -177615722 -177615721 -678683419 -1018533067" >
+        <stop busStop="1383533607" duration="20" until="41.0"/> <!-- S Spindlersfeld -->
+        <stop busStop="1383533514" duration="20" until="105.0"/> <!-- Freystadter Weg -->
+        <stop busStop="361152205" duration="20" until="171.0"/> <!-- Friedlander Straße -->
+        <stop busStop="-355914690" duration="20" until="236.0"/> <!-- Oberspreestraße/Bundeswehr -->
+    </route>
+    <route id="pt_bus_160:1" edges="190083616 318210395 143308570 283317455#0 -190083618#2 -24214694#3 -24214694#2 143308590#0 143308532#0 143308532#2 143308532#3" >
+        <stop busStop="671564316" duration="20" until="109.0"/> <!-- Rudower Chaussee/Wegedornstraße -->
+        <stop busStop="837696418" duration="20" until="173.0"/> <!-- James-Franck-Straße -->
+    </route>
+    <route id="pt_bus_163:2" color="149,39,110" edges="46039050#0 46039050#2 46039050#3 143308542#0 143308542#2 143308542#5 143308542#8 143308542#10 143308552#0 998243552#0 976351540#0 72230304#0 461514282#0 461514282#1 977639651#0 318210353 318210351 207086005#1 318210360#0 152839434#0 43660343#0 43660343#1 48298278#0 48858192#0 318210388#0 -318210386#2 -12749623" >
+        <stop busStop="837696524" duration="20" until="58.0"/> <!-- James-Franck-Straße -->
+        <stop busStop="464396487" duration="20" until="116.0"/> <!-- Rudower Chaussee/Wegedornstraße -->
+        <stop busStop="306982602" duration="20" until="172.0"/> <!-- Magnusstraße -->
+        <stop busStop="464396589" duration="20" until="244.0"/> <!-- Walther-Nernst-Straße -->
+        <stop busStop="5836660322" duration="20" until="328.0"/> <!-- S Adlershof -->
+        <stop busStop="3812676495" duration="20" until="436.0"/> <!-- Otto-Franke-Straße -->
+        <stop busStop="1383533461" duration="20" until="501.0"/> <!-- Adlergestell/Glienicker Weg -->
+    </route>
+    <route id="pt_bus_260:1" edges="12749623 81639678 48858191#0 318210383#0 81639685#0 1050686755#0 1050686755#1 1050686755#3 1050686755#4 1050686757#0 1050686757#1 1050686757#2 1050686757#3 314415495#1 314415495#2 314415495#3 314415495#5 314415495#6 314415495#7 314415495#8 314415495#9 314415495#11 314415495#12 318210361#0 998243552#0 976351540#0 72230304#0 461514282#0 461514282#1" >
+        <stop busStop="945142241" duration="20" until="82.0"/> <!-- Am Studio/Köpenicker Straße -->
+        <stop busStop="664208807" duration="20" until="138.0"/> <!-- Wilhelm-Ostwald-Straße -->
+        <stop busStop="385200819" duration="20" until="209.0"/> <!-- Albert-Einstein-Straße -->
+    </route>
+    <route id="pt_bus_164:0" color="178,34,34" edges="1014229941#0 1014229941#1 679285267#0 679285267#1 1014112247 441521943#0 600369825 579787986#1 1000328788 113575152#0 113575152#1 113575152#2 113575152#3 113575152#6 113575152#8 -99157761#3 -1066214689#1 -1066214689#0 -23913524 137534616 1066222296#0 1066222296#1 1066221786 1066221582 166142951#0 166142951#1 149611526 1102336903#0 1102336903#1 414563781 318210357#0 206889086#0 318210389#0 670062912#0 670062909#0 670062907#0 670062907#2 677933664#3 143308546#0 143308546#3 143308546#4 670062902#1 143308587#0 24214694#2 24214694#3 190083618#0 239335494 -143308570 -318210395 -190083616" >
+        <stop busStop="1383533594" duration="20" until="40.0"/> <!-- Rudower Straße -->
+        <stop busStop="3834046603" duration="20" until="141.0"/> <!-- Zinsgutstraße -->
+        <stop busStop="297194207" duration="20" until="209.0"/> <!-- Glienicker Weg/Nipkowstraße -->
+        <stop busStop="-1383533494" duration="20" until="289.0"/> <!-- Büchnerweg -->
+        <stop busStop="1383533577" duration="20" until="353.0"/> <!-- Radickestraße/Nipkowstraße -->
+        <stop busStop="1383533575" duration="20" until="424.0"/> <!-- Radickestraße/Anna-Seghers-Straße -->
+        <stop busStop="1656195133" duration="20" until="492.0"/> <!-- S Adlershof -->
+        <stop busStop="464396566" duration="20" until="623.0"/> <!-- Walther-Nernst-Straße -->
+        <stop busStop="301331956" duration="20" until="702.0"/> <!-- Magnusstraße -->
+        <stop busStop="1560223236" duration="20" until="764.0"/> <!-- Rudower Chaussee/Wegedornstraße -->
+    </route>
+    <route id="pt_bus_163:3" color="149,39,110" edges="12749623 81639678 48858191#0 318210383#0 52243916#0 -43660343#1 -43660343#0 10735918 986672064#0 204721579#0 204721579#1 204721579#2 153021549#0 153021549#1 153021549#2 153021549#3 153021549#4 153021549#5 1102336903#0 1102336903#1 414563781 318210357#0 206889086#0 318210389#0 670062912#0 670062909#0 670062907#0 670062907#2 677933664#3 143308546#0 143308546#3 143308546#4 670062902#1 143308532#0 143308532#2 143308532#3" >
+        <stop busStop="1383533462" duration="20" until="132.0"/> <!-- Adlergestell/Glienicker Weg -->
+        <stop busStop="1862990707" duration="20" until="225.0"/> <!-- Otto-Franke-Straße -->
+        <stop busStop="1656195133" duration="20" until="307.0"/> <!-- S Adlershof -->
+        <stop busStop="464396566" duration="20" until="436.0"/> <!-- Walther-Nernst-Straße -->
+        <stop busStop="301331956" duration="20" until="511.0"/> <!-- Magnusstraße -->
+        <stop busStop="671564316" duration="20" until="576.0"/> <!-- Rudower Chaussee/Wegedornstraße -->
+        <stop busStop="837696418" duration="20" until="642.0"/> <!-- James-Franck-Straße -->
+    </route>
+    <route id="pt_bus_164:1" color="178,34,34" edges="190083616 318210395 143308570 283317455#0 -190083618#2 -24214694#3 -24214694#2 143308590#0 143308542#0 143308542#2 143308542#5 143308542#8 143308542#10 143308552#0 998243552#0 976351540#0 -679901152#2 152839428 24152326#0 24152326#1 23925124#0 23925124#1 23925124#2 -166142951#1 -166142951#0 -1066221582 -1066221787 -1066222296#1 -1066222296#0 -137534616 23913524 1066214689#0 1066214689#1 99157761#0 190928927#0 190928927#2 190928927#5 190928927#7 190928927#8 190928927#9 190928927#10 190928927#11 26814968#0 26814968#1 283006415#0 -1014130057 -679285267#1 -679285267#0 -1014229941#1 -1014229941#0" >
+        <stop busStop="464396487" duration="20" until="110.0"/> <!-- Rudower Chaussee/Wegedornstraße -->
+        <stop busStop="306982602" duration="20" until="167.0"/> <!-- Magnusstraße -->
+        <stop busStop="464396589" duration="20" until="250.0"/> <!-- Walther-Nernst-Straße -->
+        <stop busStop="5836660322" duration="20" until="330.0"/> <!-- S Adlershof -->
+        <stop busStop="1383533459" duration="20" until="402.0"/> <!-- Anna-Seghers-Straße -->
+        <stop busStop="-1383533578" duration="20" until="487.0"/> <!-- Radickestraße/Nipkowstraße -->
+        <stop busStop="1383533492" duration="20" until="550.0"/> <!-- Büchnerweg -->
+        <stop busStop="3834046602" duration="20" until="630.0"/> <!-- Glienicker Weg/Nipkowstraße -->
+        <stop busStop="3834046604" duration="20" until="696.0"/> <!-- Zinsgutstraße -->
+    </route>
+    <route id="pt_bus_162:3" edges="190083616 318210395 143308570 283317455#0 -190083618#2 -24214694#3 -24214694#2 143308590#0 143308542#0 143308542#2 143308542#5 143308542#8 143308542#10 143308552#0 998243552#0 976351540#0 -679901152#2 152839428 24152326#0 24152326#1 23925124#0 23925124#1 23925124#2 -166142951#1 -166142951#0 -1066221582 -1066221787 -1066222296#1 -1066222296#0 -137534616 23913524 1066214689#0 1066214689#1 99157761#0 190928927#0 190928927#2 190928927#5 190928927#7 190928927#8 190928927#9 190928927#10 190928927#11 26814968#0 26814968#1 283006415#0 -1014130057 -679285267#1 -679285267#0 -1014229941#1 -1014229941#0" >
+        <stop busStop="464396487" duration="20" until="80.0"/> <!-- Rudower Chaussee/Wegedornstraße -->
+        <stop busStop="306982602" duration="20" until="137.0"/> <!-- Magnusstraße -->
+        <stop busStop="464396589" duration="20" until="223.0"/> <!-- Walther-Nernst-Straße -->
+        <stop busStop="5836660322" duration="20" until="299.0"/> <!-- S Adlershof -->
+        <stop busStop="1383533459" duration="20" until="371.0"/> <!-- Anna-Seghers-Straße -->
+        <stop busStop="-1383533578" duration="20" until="457.0"/> <!-- Radickestraße/Nipkowstraße -->
+        <stop busStop="1383533492" duration="20" until="519.0"/> <!-- Büchnerweg -->
+        <stop busStop="3834046602" duration="20" until="595.0"/> <!-- Glienicker Weg/Nipkowstraße -->
+        <stop busStop="3834046604" duration="20" until="663.0"/> <!-- Zinsgutstraße -->
+    </route>
+    <route id="pt_bus_162:2" edges="1014229941#0 1014229941#1 679285267#0 679285267#1 1014112247 441521943#0 600369825 579787986#1 1000328788 113575152#0 113575152#1 113575152#2 113575152#3 113575152#6 113575152#8 -99157761#3 -1066214689#1 -1066214689#0 -23913524 137534616 1066222296#0 1066222296#1 1066221786 1066221582 166142951#0 166142951#1 149611526 1102336903#0 1102336903#1 414563781 318210357#0 206889086#0 318210389#0 670062912#0 670062909#0 670062907#0 670062907#2 677933664#3 143308546#0 143308546#3 143308546#4 670062902#1 143308587#0 24214694#2 24214694#3 190083618#0 239335494 -143308570 -318210395 -190083616" >
+        <stop busStop="1383533594" duration="20" until="40.0"/> <!-- Rudower Straße -->
+        <stop busStop="3834046603" duration="20" until="132.0"/> <!-- Zinsgutstraße -->
+        <stop busStop="297194207" duration="20" until="200.0"/> <!-- Glienicker Weg/Nipkowstraße -->
+        <stop busStop="-1383533494" duration="20" until="272.0"/> <!-- Büchnerweg -->
+        <stop busStop="1383533577" duration="20" until="335.0"/> <!-- Radickestraße/Nipkowstraße -->
+        <stop busStop="1383533575" duration="20" until="405.0"/> <!-- Radickestraße/Anna-Seghers-Straße -->
+        <stop busStop="1656195133" duration="20" until="475.0"/> <!-- S Adlershof -->
+        <stop busStop="464396566" duration="20" until="582.0"/> <!-- Walther-Nernst-Straße -->
+        <stop busStop="301331956" duration="20" until="655.0"/> <!-- Magnusstraße -->
+        <stop busStop="1560223236" duration="20" until="724.0"/> <!-- Rudower Chaussee/Wegedornstraße -->
+    </route>
+    <flow id="pt_bus_160:0" type="pt_bus" route="pt_bus_160:0" begin="3.0" end="10003.0" period="600" line="160:0" >
+        <param key="name" value="Bus 160: S Schöneweide =&gt; Altglienicke, Siriusstraße"/>
+        <param key="completeness" value="0.06"/>
+    </flow>
+    <flow id="pt_bus_162:0" type="pt_bus" route="pt_bus_162:0" begin="17.0" end="10017.0" period="600" line="162:0" >
+        <param key="name" value="Bus 162: S Adlershof =&gt; U Rudow"/>
+        <param key="completeness" value="0.36"/>
+    </flow>
+    <flow id="pt_bus_163:0" type="pt_bus" route="pt_bus_163:0" begin="93.0" end="10093.0" period="600" line="163:0" >
+        <param key="name" value="Bus 163: Flughafen BER - Terminal 5 =&gt; S Adlershof"/>
+        <param key="completeness" value="0.15"/>
+    </flow>
+    <flow id="pt_bus_162:1" type="pt_bus" route="pt_bus_162:1" begin="52.0" end="10052.0" period="600" line="162:1" >
+        <param key="name" value="Bus 162: U Rudow =&gt; S Adlershof"/>
+        <param key="completeness" value="0.30"/>
+    </flow>
+    <flow id="pt_bus_163:1" type="pt_bus" route="pt_bus_163:1" begin="119.0" end="10119.0" period="600" line="163:1" >
+        <param key="name" value="Bus 163: S Adlershof =&gt; Flughafen BER - Terminal 5"/>
+        <param key="completeness" value="0.16"/>
+    </flow>
+    <flow id="pt_bus_260:0" type="pt_bus" route="pt_bus_260:0" begin="133.0" end="10133.0" period="600" line="260:0" >
+        <param key="name" value="Bus 260: S Adlershof =&gt; U Rudow"/>
+        <param key="completeness" value="0.18"/>
+    </flow>
+    <flow id="pt_bus_165:0" type="pt_bus" route="pt_bus_165:0" begin="165.0" end="10165.0" period="600" line="165:0" >
+        <param key="name" value="Bus 165: U Märkisches Museum =&gt; Köpenick, Müggelschlößchenweg"/>
+        <param key="completeness" value="0.09"/>
+    </flow>
+    <flow id="pt_bus_165:1" type="pt_bus" route="pt_bus_165:1" begin="201.0" end="10201.0" period="600" line="165:1" >
+        <param key="name" value="Bus 165: Köpenick, Müggelschlößchenweg =&gt; U Märkisches Museum"/>
+        <param key="completeness" value="0.09"/>
+    </flow>
+    <flow id="pt_bus_160:1" type="pt_bus" route="pt_bus_160:1" begin="483.0" end="10483.0" period="600" line="160:1" >
+        <param key="name" value="Bus 160: Altglienicke, Siriusstraße =&gt; S Schöneweide"/>
+        <param key="completeness" value="0.07"/>
+    </flow>
+    <flow id="pt_bus_163:2" type="pt_bus" route="pt_bus_163:2" begin="131.0" end="10131.0" period="600" line="163:2" >
+        <param key="name" value="Bus 163: S Schöneweide =&gt; Flughafen BER - Terminal 5"/>
+        <param key="completeness" value="0.23"/>
+    </flow>
+    <flow id="pt_bus_260:1" type="pt_bus" route="pt_bus_260:1" begin="406.0" end="10406.0" period="600" line="260:1" >
+        <param key="name" value="Bus 260: U Rudow =&gt; S Adlershof"/>
+        <param key="completeness" value="0.14"/>
+    </flow>
+    <flow id="pt_bus_164:0" type="pt_bus" route="pt_bus_164:0" begin="204.0" end="10204.0" period="600" line="164:0" >
+        <param key="name" value="Bus 164: S Köpenick =&gt; Flughafen BER - Terminal 5"/>
+        <param key="completeness" value="0.38"/>
+    </flow>
+    <flow id="pt_bus_163:3" type="pt_bus" route="pt_bus_163:3" begin="441.0" end="10441.0" period="600" line="163:3" >
+        <param key="name" value="Bus 163: Flughafen BER - Terminal 5 =&gt; S Schöneweide"/>
+        <param key="completeness" value="0.22"/>
+    </flow>
+    <flow id="pt_bus_164:1" type="pt_bus" route="pt_bus_164:1" begin="418.0" end="10418.0" period="600" line="164:1" >
+        <param key="name" value="Bus 164: Flughafen BER - Terminal 5 =&gt; S Köpenick"/>
+        <param key="completeness" value="0.33"/>
+    </flow>
+    <flow id="pt_bus_162:3" type="pt_bus" route="pt_bus_162:3" begin="574.0" end="10574.0" period="600" line="162:3" >
+        <param key="name" value="Bus 162: U Rudow =&gt; Schloßplatz Köpenick"/>
+        <param key="completeness" value="0.45"/>
+    </flow>
+    <flow id="pt_bus_162:2" type="pt_bus" route="pt_bus_162:2" begin="535.0" end="10535.0" period="600" line="162:2" >
+        <param key="name" value="Bus 162: Schloßplatz Köpenick=&gt; U Rudow"/>
+        <param key="completeness" value="0.48"/>
+    </flow>
+</routes>
